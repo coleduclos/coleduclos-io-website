@@ -1,6 +1,6 @@
 # Terraform Backend
 
 region = "us-east-1"
-bucket = ""
-key = ""
+bucket = "duclos-ops-bucket-0878"
+key = "coleduclosio/frontend/terraform/dev/us-east-1/terraform.tfstate"
 encrypt = true
