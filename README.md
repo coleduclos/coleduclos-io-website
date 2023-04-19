@@ -29,6 +29,7 @@ make build
 ### Push
 
 ```
+export APPLICATION_ID=coleduclosio
 make push
 ```
 
