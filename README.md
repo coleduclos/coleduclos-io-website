@@ -30,11 +30,15 @@ make build
 
 ```
 export APPLICATION_ID=coleduclosio
+export ARTIFACT_S3_BUCKET=<INSERT_OPS_BUCKET>
 make push
 ```
 
 ### Deploy
 
 ```
-make push
+export APPLICATION_ID=coleduclosio
+export ARTIFACT_S3_BUCKET=<INSERT_OPS_BUCKET>
+export WEBSITE_S3_BUCKET=coleduclos.io
+make deploy
 ```
